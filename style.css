@@ -60,7 +60,6 @@ body {
 }
 .container #navMenu {
     display: flex;
-    justify-content: flex-start;
     margin-left: 0;
     gap: 20px;
     width: 0;
@@ -69,6 +68,7 @@ body {
 }
 .container.active #navMenu {
     width: 100%;
+    padding-right: 20px;
 }
 .container #navMenu .letter {
     opacity: 0;
